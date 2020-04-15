@@ -18,7 +18,7 @@
     <body>
         <div class="page-top" style="width: 100%; height: 20px; background-color: #f46b42;"></div>
         <!-- Static navbar -->
-        <nav class="navbar navbar-default navbar-inverse">
+        <nav class="navbar navbar-default navbar-inverse" style="border-radius: 0">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed"
@@ -60,7 +60,9 @@
             <!--/.container-fluid -->
         </nav>
 
+        <!-- container -->
         <div class="container box">
+
             <!-- carousel + logo -->
             <div class="row">
                 <!-- carousel -->
@@ -130,9 +132,11 @@
                 <!-- /.logo -->
             </div>
 
-            <!-- dividier -->
+            <!-- divider -->
             <hr />
+            <!-- ./divider -->
 
+            <!-- best sellers / hours / faq's -->
             <div class="row">
                 <!-- Best sellers -->
                 <div class="col-xs-4">
@@ -164,8 +168,133 @@
                 </div>
                 <!-- /.FAQs -->
             </div>
-        </div>
+            <!-- ./best sellers / hours / faq's -->
 
+            <!-- featured books -->
+            <div>
+                <div class="home-headline"><span>Featured Books</span></div>
+                <hr style="margin-top: -17px;" />
+
+            </div>
+            <!-- ./featured books -->
+
+            <!-- bookshelf -->
+            <div class="row">
+                <!-- carousel -->
+                <div id="featured-books" class="carousel slide"
+                     data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#featured-books" data-slide-to="0"
+                            class="active"></li>
+                        <li data-target="#featured-books" data-slide-to="1"></li>
+                        <li data-target="#featured-books" data-slide-to="2"></li>
+                    </ol>
+                    <!-- /.Indicators -->
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <!-- item -->
+                        <div class="item active">
+                            <!-- Bookshelf Img -->
+                            <img class="img-responsive" src="/image/faq.png" />
+                            <!-- ./Bookshelf Img -->
+                            <!-- Carousel-Caption -->
+                            <div class="carousel-caption">
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ./ Carousel-Caption -->
+                        </div>
+                        <!-- ./ item -->
+                        <!-- item -->
+                        <div class="item">
+                            <!-- Bookshelf Img -->
+                            <img class="img-responsive" src="/image/shelf.png" />
+                            <!-- ./Bookshelf Img -->
+                            <!-- Carousel-Caption -->
+                            <div class="carousel-caption">
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ./ Carousel-Caption -->
+                        </div>
+                        <!-- ./ item -->
+                        <!-- item -->
+                        <div class="item">
+                            <!-- Bookshelf Img -->
+                            <img class="img-responsive" src="/image/faq.png" />
+                            <!-- ./Bookshelf Img -->
+                            <!-- Carousel-Caption -->
+                            <div class="carousel-caption">
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <img class="img-responsive" src="/image/book1.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ./ Carousel-Caption -->
+                        </div>
+                        <!-- ./ item -->
+                    </div>
+                    <!-- ./ wrapper -->
+                </div>
+                <!-- /.carousel -->
+            </div>
+            <!-- /.bookshelf -->
+        </div>
+        <!-- ./container -->
 
         <!-- Bootstrap core JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
