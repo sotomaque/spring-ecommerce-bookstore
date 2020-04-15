@@ -2,7 +2,11 @@ body {
 }
 
 .navbar {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+.box {
+    margin-top: 60px;
 }
 
 
